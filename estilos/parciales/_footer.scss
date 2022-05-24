@@ -1,0 +1,24 @@
+@mixin textos-mixin {
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    }
+
+footer{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #e7ecef;
+    background-color: #274c77;
+    @include textos-mixin;
+
+&__nav{
+    align-items: center;
+    color: #e7ecef;
+}
+
+&__lista{
+    list-style: none;
+}
+
+}

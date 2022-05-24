@@ -1,0 +1,25 @@
+@mixin textos-mixin {
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    }
+
+.header{
+    background-color: #274c77;
+    @include textos-mixin;
+
+&__nav{
+padding: 1rem;
+}
+
+&__titulo {
+    color: #274c77;
+}
+
+&__imgcar{
+    height: 45vh;
+    object-fit: cover;
+}
+
+}
+
