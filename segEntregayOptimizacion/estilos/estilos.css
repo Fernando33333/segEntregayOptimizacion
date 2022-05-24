@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.header{
+    background-color: #274c77;
+}
+
+.header__nav{
+padding: 1rem;
+}
+
+.header__titulo {
+    color: #274c77;
+}
+
+.header__imgcar{
+    height: 45vh;
+    object-fit: cover;
+}
+
+
+main{
+    background-color: #274c77;
+
+}
+.main__container{
+     justify-content: space-between;
+}
+
+.main__img{
+    max-height:100vw;
+    max-width: 100vw;
+}
+
+.main__col{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.main__cardtext{
+    color: #274c77;
+    padding: 0.5rem;
+    text-align: center;
+    font-weight: lighter;
+    overflow: visible;
+    font-size: 1.2rem;
+}
+
+.main__card{
+    margin: 3rem;
+}
+
+.main__form{
+    padding: 8rem;
+}
+
+.header__navbtn {   
+    background-color: #274c77;
+}
+
+
+footer{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #e7ecef;
+    background-color: #274c77;
+}
+
+.footer__nav{
+    color: #e7ecef;
+}
+.footer__lista{
+    list-style: none;
+}
+
+
+
+
+
+@media only screen and (min-width: 320px) {
+
+
+}
+
+@media only screen and (min-width: 480px) {
+
+
+}
+@media only screen and (min-width: 576px) {
+        
+
+}
+
+@media only screen and (min-width: 768px) {
+
+    
+}
+
+@media only screen and (min-width: 991px) {
+            
+
+}
+
+@media only screen and (min-width: 1200px) {
+    
+    
+}
+
+@media only screen and (max-width: 1200px) {
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
